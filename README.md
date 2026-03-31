@@ -1,6 +1,6 @@
 # 🏦 Financial Assistant AI Agent
 
-An AI-powered financial assistant with comprehensive guardrails, built with Anthropic's Claude API. Handles investment queries, portfolio analysis, financial calculations, and market data retrieval.
+An AI-powered financial assistant with comprehensive guardrails, built with Groq API. Handles investment queries, portfolio analysis, financial calculations, and market data retrieval.
 
 \---
 
