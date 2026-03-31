@@ -98,35 +98,41 @@ User Query
 
 ### Prerequisites
 - Python 3.10+
-- Groq API key (free at console.groq.com)
+- Groq API key (free at https://console.groq.com)
 
 ### Installation
+
+1. Clone the repo
 ```bash
-# Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/R-ohit-kumar/financial-agent.git
 cd financial-agent
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Create .env file and add your Groq API key
-echo "GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx" > .env
 ```
 
-## ```Run
-
+2. Install dependencies
 ```bash
-# Interactive mode
-python main.py
-
-# Single query
-python main.py "What is Apple's current P/E ratio and should I consider buying?"
-
-# Run evaluation tests (no API key needed)
-python evaluation/run\_tests.py
+pip install -r requirements.txt
 ```
 
-\---
+3. Create a `.env` file in the project root
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+4. Get your free Groq API key
+   - Go to https://console.groq.com
+   - Sign up for free (no credit card needed)
+   - Go to API Keys → Create API Key
+   - Copy and paste it into your `.env` file
+
+5. Run the agent
+```bash
+python main.py
+```
+
+6. Run the tests (no API key needed)
+```bash
+python evaluation/run_tests.py
+```
 
 ## 📊 Example Interactions
 
