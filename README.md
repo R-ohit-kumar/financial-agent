@@ -4,6 +4,9 @@ An AI-powered financial assistant with comprehensive guardrails, built with Groq
 
 \---
 
+## 🎥 Project Demo
+👉 https://www.youtube.com/watch?v=G7LHy549Hgg
+
 ## 🏗️ Architecture
 
 ```
